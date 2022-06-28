@@ -25,8 +25,18 @@
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.7.0",
+    "@embroider/compat": "^1.8.0",
+    "@embroider/core": "^1.8.0",
+    "@embroider/webpack": "^1.8.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
+    "@types/ember-data": "^4.0.1",
+    "@types/ember-data__adapter": "^4.0.0",
+    "@types/ember-data__model": "^4.0.0",
+    "@types/ember-data__serializer": "^4.0.0",
+    "@types/ember-data__store": "^4.0.0",
+    "@types/ember-qunit": "^5.0.0",
+    "@types/ember-resolver": "^5.0.11",
     "@types/ember__application": "^4.0.0",
     "@types/ember__array": "^4.0.1",
     "@types/ember__component": "^4.0.8",
@@ -44,13 +54,6 @@
     "@types/ember__test": "^4.0.0",
     "@types/ember__test-helpers": "^2.6.1",
     "@types/ember__utils": "^4.0.0",
-    "@types/ember-data": "^4.0.1",
-    "@types/ember-data__adapter": "^4.0.0",
-    "@types/ember-data__model": "^4.0.0",
-    "@types/ember-data__serializer": "^4.0.0",
-    "@types/ember-data__store": "^4.0.0",
-    "@types/ember-qunit": "^5.0.0",
-    "@types/ember-resolver": "^5.0.11",
     "@types/htmlbars-inline-precompile": "^3.0.0",
     "@types/qunit": "^2.19.1",
     "@types/rsvp": "^4.0.4",
@@ -89,7 +92,7 @@
     "qunit": "^2.19.1",
     "qunit-dom": "^2.0.0",
     "typescript": "^4.7.4",
-    "webpack": "^5.72.1"
+    "webpack": "^5.73.0"
   },
   "engines": {
     "node": "12.* || 14.* || >= 16"
