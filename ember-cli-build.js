@@ -24,7 +24,7 @@ module.exports = function (defaults) {
   return require('@embroider/compat').compatBuild(app, Webpack, {
     packagerOptions: {
       webpackConfig: {
-        node: { global: true },
+        node: { global: true }
       },
     },
   });

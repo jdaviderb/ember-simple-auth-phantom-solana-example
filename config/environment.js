@@ -22,6 +22,18 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+
+    ['ember-simple-auth']: {
+      routeAfterAuthentication: 'authenticated.world',
+    },
+
+    solana: {
+      CLUSTER_URL: 'http://127.0.0.1:8899',
+      PROGRAM_ID_PUBLIC_SEED: 'ok2222xxx22xxxxxxx',
+      PROGRAM_ID: 'JCKY6ahMj3aBkoht3WTPUEqZrLajvMkNW8uKRXqx2AG5',
+      RANKING_ACCOUNT: 'Bdq3xqTMFuk5JVVLCXssKx8wnDzTd1pbXTigCTr8EfKi',
+      LAMPORTS_BASE: 1000000000,
+    }
   };
 
   if (environment === 'development') {
