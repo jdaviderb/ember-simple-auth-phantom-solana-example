@@ -3,6 +3,7 @@
 module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'webapp',
+    podModulePrefix: 'webapp/pods',
     environment,
     rootURL: '/',
     locationType: 'history',
